@@ -1,0 +1,7 @@
+version: "3"
+services:
+  node:
+    container_name: node6app
+    image: node6app
+    volumes:
+      - /home/mikael/dev/react/react-redux-docker/app:/usr/src/app/app
