@@ -8,8 +8,6 @@
 
 ```> docker run --rm --name node6app node6app npm version```
 
-```> docker run --rm -v /home/mikael/dev/react/react-redux-docker/app:/usr/src/app/app``` --name node6app node6app npm run open:src
-
 ```> docker run --rm -v /home/mikael/dev/react/react-redux-docker/app:/usr/src/app/app -p 3000:3000 --name node6app node6app npm run open:src```
 
 ```> docker-compose run -p 3000:3000 node npm run open:src```
