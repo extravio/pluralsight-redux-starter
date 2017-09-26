@@ -77,3 +77,5 @@ class AuthorApi {
     });
   }
 }
+
+export default AuthorApi;
