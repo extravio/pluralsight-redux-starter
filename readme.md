@@ -13,3 +13,5 @@
 ```> docker-compose run -p 3000:3000 node npm run open:src```
 
 ```> docker-compose run -p 3000:3000 node npm start```
+
+```> docker container stop reactreduxdocker_node_run_16```

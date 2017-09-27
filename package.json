@@ -8,7 +8,7 @@
     "open:src": "babel-node app/tools/srcServer.js",
     "lint": "node_modules/.bin/esw webpack.config.* app/src app/tools",
     "lint:watch": "npm run lint -- --watch",
-    "test": "mocha --reporter progress app/tools/testSetup.js \"app/src/**/*.test.js\"",
+    "test": "mocha --reporter spec app/tools/testSetup.js \"app/src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch"
   },
   "author": "Cory House",
