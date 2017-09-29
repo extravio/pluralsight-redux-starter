@@ -1,3 +1,4 @@
+/* eslint-disable import/no-named-as-default */
 import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';

@@ -33,7 +33,7 @@ describe('Async Actions', () => {
 
     const expectedActions = [
         { type: types.BEGIN_AJAX_CALL },
-        { type: types.LOAD_COURSES_SUCCESS, body: { courses: [{ id: 'clean-code', title: 'Clean code' }] } },
+        { type: types.LOAD_COURSES_SUCCESS, body: { courses: [{ id: 'clean-code', title: 'Clean code' }] } }
     ];
 
     const store = mockStore({courses: []}, expectedActions);
